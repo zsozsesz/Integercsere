@@ -6,7 +6,7 @@ function segednelkul(x,y) {
     y=x-y;
     x=x-y;
     console.log("x :"+x+" y :"+y);
-};
+}
 
 function segeddel1(x,y) {
 
@@ -14,7 +14,7 @@ function segeddel1(x,y) {
     x=y;
     y=temp;
     console.log("x :"+x+" y :"+y);
-};
+}
 
 function segeddel2(x,y) {
 
@@ -23,7 +23,7 @@ function segeddel2(x,y) {
     x=temp-x;
 
     console.log("x :"+x+" y :"+y);
-};
+}
 
 function tombbel(x,y) {
     var array =[];
@@ -33,20 +33,20 @@ function tombbel(x,y) {
     y=array[0];
 
     console.log("x :"+x+" y :"+y);
-};
+}
 
-console.log("segédváltozó nélküli megoldás:")
+console.log("segédváltozó nélküli megoldás:");
 console.log("x :"+x+" y :"+y);
 segednelkul(x,y);
 
-console.log("\nsegédváltozóval történő megoldás:")
+console.log("\nsegédváltozóval történő megoldás:");
 console.log("x :"+x+" y :"+y);
 segeddel1(x,y);
 
-console.log("\nsegédváltozóval történő megoldás 2:")
+console.log("\nsegédváltozóval történő megoldás 2:");
 console.log("x :"+x+" y :"+y);
 segeddel2(x,y);
 
-console.log("\ntömb segítségévell történő megoldás 2:")
+console.log("\ntömb segítségével történő megoldás 2:");
 console.log("x :"+x+" y :"+y);
 tombbel(x,y);
