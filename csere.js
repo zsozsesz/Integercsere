@@ -47,6 +47,6 @@ console.log("\nsegédváltozóval történő megoldás 2:");
 console.log("x :"+x+" y :"+y);
 segeddel2(x,y);
 
-console.log("\ntömb segítségével történő megoldás 2:");
+console.log("\ntömb segítségével történő megoldás:");
 console.log("x :"+x+" y :"+y);
 tombbel(x,y);
